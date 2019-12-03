@@ -68,7 +68,7 @@ echo $red"| 42 |" FBDev $green "[ON]"
 echo $red"| 43 |" FBApp $green "[ON]"
 echo $red"| 44 |" FBAutoPost $green "[ON]"
 echo $red"| 45 |" FBphish $green "[ON]"
-echo $red"| 00 |" Update 45-80tools $green "[OFF]"
+echo $red"| 00 |" Update 45-80tools $red "[OFF]"
 read -p ">" au
 
 if [ $au = 1 ]
@@ -344,6 +344,6 @@ fi
 if [ $au = 00 ]
 then
 clear
-echo $white "Kontak Me : 0895805133060"
+echo $white "Kontak Me : 081413512754"
 echo $white "Use Your Brain"
 fi
